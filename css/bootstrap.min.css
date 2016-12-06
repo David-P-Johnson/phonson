@@ -65,10 +65,11 @@ h3 {
 }
 
 p {
-	margin: 0px 50px; 
-	font-size: 15px;
+	max-width: 500px;
+	margin: auto;
+	left: 0;
+	right: 0;
 	line-height: 2em;
 	color: #bdbdbd;
 	cursor: default;
-}
 
