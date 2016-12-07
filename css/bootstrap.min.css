@@ -28,6 +28,15 @@ body {
 	margin: auto;
 }
 
+svg {
+	width: 80px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	margin: auto;
+	}
+
 #nav-logo {
 	display: inline-block !important;
 	z-index: 2;
