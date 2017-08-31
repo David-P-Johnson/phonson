@@ -48,7 +48,8 @@ svg {
 a {
 	color: #fff;
 	text-transform: uppercase;
-	background: #E91E63;
+    background: rgba(255, 255, 255, 0.18);
+	/*background: #E91E63;*/
 	border: transparent;
 	border-radius: 5px;
 	padding: 10px 60px;
