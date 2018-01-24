@@ -1,0 +1,159 @@
+body {
+	color: #fff;
+	line-height: 1.5em;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	z-index: -99;
+}
+
+#sayGoodbye {
+    
+}
+
+.splash {
+	text-align: center;
+}
+
+#splash-img {
+	display: block !important;
+	vertical-align: middle;
+	z-index: 20;
+	position: relative;
+	width: 70px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#bgImg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#nav-logo {
+	display: inline-block !important;
+	z-index: 2;
+	position: absolute;
+	width: 40px;
+	margin: 10px;
+}
+
+a {
+	color: #fff;
+	text-transform: uppercase;
+	background: #D1A66A;
+	border: transparent;
+	padding: 15px 20px;
+	transition: .2s;
+}
+
+a:focus, a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: none;
+    box-shadow: 0px 0px 0px 10px #e100ee;
+    border-radius: 0px 5px;
+}
+
+span {
+	color: #D1A66A;
+}
+
+h3 {
+    margin: 20px 50px; 
+    font-size: 24px;
+    font-weight: bold;
+    cursor: default;
+     position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+p {
+	margin: 0px 50px; 
+	font-size: 15px;
+	line-height: 2em;
+	color: #bdbdbd;
+	cursor: default;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.hello {
+ 	background: linear-gradient(         
+ 		rgba(79, 16, 181, 0.6),          
+ 		rgba(0, 37, 84, 0.6)),
+ 		url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
+
+-webkit-background-size: cover;
+-webkit-background-position: center;
+-o-background-size: cover;
+-o-background-position: center;
+-moz-background-size: cover;
+-moz-background-position: center;
+background-size: cover;
+background-position: center;
+
+height: 100vh;
+
+}
+
+.centerDiv {
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    border: transparent;
+    margin: 50px 0px;
+    z-index: 2;
+    position: relative;
+    padding: 0px 35px;
+}
+button:hover {
+  transition: .2s !important;
+}
+
+
+#overlay {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: linear-gradient(             
+		rgba(21, 0, 56, 0.8),              
+		rgba(0, 37, 84, 0.6));
+}
+
+#menu-btn {
+	background: transparent;
+}
+
+#menu-bars {
+  width: 25px;
+  right: 0;
+  background: #fff;
+  height: 3px;
+  margin: 5px 5px;
+  display: block;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
