@@ -72,13 +72,15 @@ h3 {
 }
 
 p {
-	margin: 0px 50px; 
+	max-width: 550px;
+    margin: 0px 50px; 
 	font-size: 15px;
 	line-height: 2em;
 	color: #bdbdbd;
 	cursor: default;
     position: relative;
     text-align: center;
+    margin: auto;
     z-index: 2;
 }
 
