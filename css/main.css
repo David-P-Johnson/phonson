@@ -62,8 +62,8 @@ span {
 }
 
 h3 {
-    margin: 20px 50px; 
-    font-size: 24px;
+    margin: 40px 50px 10px 50px;
+    font-size: 18px;
     font-weight: bold;
     cursor: default;
      position: relative;
@@ -113,10 +113,10 @@ height: 100vh;
 button {
     background: transparent;
     border: transparent;
-    margin: 50px 0px;
-    z-index: 2;
+    margin: 50px 50px;
     position: relative;
-    padding: 0px 35px;
+    padding: 13px 0px;
+    z-index: 2;
 }
 button:hover {
   transition: .2s !important;
