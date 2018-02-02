@@ -6,10 +6,6 @@ body {
 	z-index: -99;
 }
 
-#sayGoodbye {
-    
-}
-
 .splash {
 	text-align: center;
 }
@@ -17,7 +13,7 @@ body {
 #splash-img {
 	display: block !important;
 	vertical-align: middle;
-	z-index: 20;
+	z-index: 2;
 	position: relative;
 	width: 70px;
 	left: 0;
@@ -102,25 +98,6 @@ button:hover {
     box-shadow: 0px 0px 0px 5px #e100ee;
 }
 
-.bgGradient {
- 	background: linear-gradient(         
- 		rgba(79, 16, 181, 0.6),          
- 		rgba(0, 37, 84, 0.6)),
- 		url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
-
--webkit-background-size: cover;
--webkit-background-position: center;
--o-background-size: cover;
--o-background-position: center;
--moz-background-size: cover;
--moz-background-position: center;
-background-size: cover;
-background-position: center;
-
-height: 100vh;
-
-}
-
 .centerDiv {
     margin: auto;
     left: 0;
@@ -164,4 +141,23 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+}
+
+.bgGradient {
+    background: linear-gradient(         
+        rgba(79, 16, 181, 0.6),          
+        rgba(0, 37, 84, 0.6)),
+        url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
+
+-webkit-background-size: cover;
+-webkit-background-position: center;
+-o-background-size: cover;
+-o-background-position: center;
+-moz-background-size: cover;
+-moz-background-position: center;
+background-size: cover;
+background-position: center;
+
+height: 100vh;
+
 }
