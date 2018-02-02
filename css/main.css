@@ -40,23 +40,6 @@ body {
 	margin: 10px;
 }
 
-a {
-	color: #fff;
-	text-transform: uppercase;
-	background: #D1A66A;
-	border: transparent;
-	padding: 15px 20px;
-	transition: .2s;
-}
-
-a:focus, a:hover {
-	color: #fff;
-	text-decoration: none;
-	background: none;
-    box-shadow: 0px 0px 0px 10px #e100ee;
-    border-radius: 0px 5px;
-}
-
 span {
 	color: #D1A66A;
 }
@@ -84,7 +67,40 @@ p {
     z-index: 2;
 }
 
-.hello {
+a {
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+	border: transparent;
+	padding: 15px 20px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+	color: #fff;
+	background: none;
+    /* box-shadow: 0px 0px 0px 10px #e100ee; */
+    /* border-radius: 0px 5px; */
+}
+
+button {
+    background: #D1A66A;
+    border: transparent;
+    margin: 20px 20px;
+    position: relative;
+    padding: 13px 0px;
+    z-index: 2;
+    transition:all .2s ease-in-out;
+}
+button:hover {
+    transform: translateY(10px);
+    background: transparent;
+    border-radius: 0px 5px;
+    box-shadow: 0px 0px 0px 5px #e100ee;
+}
+
+.bgGradient {
  	background: linear-gradient(         
  		rgba(79, 16, 181, 0.6),          
  		rgba(0, 37, 84, 0.6)),
@@ -108,18 +124,6 @@ height: 100vh;
     left: 0;
     right: 0;
     text-align: center;
-}
-
-button {
-    background: transparent;
-    border: transparent;
-    margin: 50px 50px;
-    position: relative;
-    padding: 13px 0px;
-    z-index: 2;
-}
-button:hover {
-  transition: .2s !important;
 }
 
 
