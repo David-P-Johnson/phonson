@@ -94,7 +94,7 @@ button {
     transition:all .2s ease-in-out;
 }
 button:hover {
-    transform: translateY(10px);
+    transform: translateY(5px);
     background: transparent;
     border-radius: 0px 5px;
     box-shadow: 0px 0px 0px 5px #e100ee;
