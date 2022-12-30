@@ -1,0 +1,67 @@
+.hidden {
+  display: none;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  size: 155px;
+  font-family: 'Trebuchet MS';
+  font-size: 100px;
+}
+
+p {
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 40px;
+  max-width: 300px;
+}
+
+body {
+  /* Set the background image */
+  background-image: url("learnImage.jpg");
+
+  /* Set the background attachment to fixed */
+  background-attachment: fixed;
+
+  /* Set the background size to cover the entire screen */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  background-color: #98d1e83d;
+  color: aliceblue;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+
+button {
+  text-transform: uppercase;
+	display: block;
+  font-size: large;
+  min-width: 300px;
+  height: 40px;
+  line-height: 40px;
+  background: #333;
+  transition: .5s;
+  color: #fff;
+  border: none;
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
