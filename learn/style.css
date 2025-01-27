@@ -9,6 +9,21 @@ h1 {
   font-size: 100px;
 }
 
+.scoreContainer {
+  margin-left: 30px;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  display: flex;
+}
+
+
+#scoreDisplay {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
 p {
   color: white;
   text-transform: uppercase;

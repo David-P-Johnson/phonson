@@ -60,6 +60,7 @@
 
 let currentQuestion;
 let score = 0;
+document.getElementById("scoreDisplay").innerHTML = ("Score ")+score;
 
 // Function to generate a random question
 function generateQuestion() {
@@ -89,10 +90,11 @@ function checkAnswer() {
     // Update the header text
     document.getElementById("header").innerHTML = "Correct!";
     score++;
+    document.getElementById("scoreDisplay").innerHTML = ("Score ")+score;
   } else {
     // Update the header text
     document.getElementById("header").innerHTML =
-      "Wrong. It's '" + currentQuestion.spelling + "'";
+      "Oops! It's '" + currentQuestion.spelling + "'";
   }
     // Hide the question, answer input, and submit button
     document.getElementById("question").classList.add("hidden");
