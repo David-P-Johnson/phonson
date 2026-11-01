@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Chargewise EV Cost Tracker",
+  "name": "Chargewise Personal Expense Tracker",
   "short_name": "Chargewise",
-  "description": "Private EV cost tracking with secure device sync.",
+  "description": "Private expense tracking for property, vehicle comparisons, and EV ownership.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
