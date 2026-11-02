@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" preserveAspectRatio="xMidYMid slice" fill="none">
+  <style>@media (prefers-reduced-motion: reduce) { animateTransform { display: none; } }</style>
+  <g stroke="#fff" stroke-width="2" stroke-linecap="round">
+    <g><path d="M245 321c18-38 31-70 55-99 28-35 65-48 103-45 33 2 58 16 109 10"/><animateTransform attributeName="transform" type="translate" values="0 0;1 -2;0 0;-1 1;0 0" dur="15s" repeatCount="indefinite"/></g>
+    <g><path d="M274 321c19-33 33-61 55-83 25-26 52-37 82-35 34 2 61 19 101 13"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 -1;0 0;1 1;0 0" dur="12s" repeatCount="indefinite"/></g>
+    <g><path d="M308 321c16-25 29-48 49-64 20-16 42-24 66-21 34 4 54 18 89 15"/><animateTransform attributeName="transform" type="translate" values="0 0;2 0;0 0;-1 -1;0 0" dur="10s" repeatCount="indefinite"/></g>
+    <g><path d="M348 321c14-18 28-32 45-40 17-8 35-10 55-5 21 5 38 11 64 9"/><animateTransform attributeName="transform" type="translate" values="0 0;1 2;0 0;-2 0;0 0" dur="17s" repeatCount="indefinite"/></g>
+    <g><path d="m292 220 22-21 20 7 20-26 24 11 24-20 18 5"/><animateTransform attributeName="transform" type="translate" values="0 0;2 -2;0 0;-1 1;0 0" dur="8s" repeatCount="indefinite"/></g>
+  </g>
+</svg>

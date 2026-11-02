@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" preserveAspectRatio="xMidYMid slice" fill="none">
+  <style>@media (prefers-reduced-motion: reduce) { animateTransform { display: none; } }</style>
+  <g stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <g><path d="M260 273h213M277 273V69"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0;0 1;0 0" dur="17s" repeatCount="indefinite"/></g>
+    <g><path d="m292 235 39-48 36 21 42-83 31 16 30-54"/><animateTransform attributeName="transform" type="translate" values="0 0;1 -2;0 0;-1 1;0 0" dur="10s" repeatCount="indefinite"/></g>
+    <g><path d="M292 249c31-7 49-29 70-32 22-3 40 14 60 6 20-7 29-34 51-51"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 2;0 0;2 -1;0 0" dur="14s" repeatCount="indefinite"/></g>
+    <g><path d="M298 99h44M298 127h25"/><animateTransform attributeName="transform" type="translate" values="0 0;2 0;0 0;-1 1;0 0" dur="8s" repeatCount="indefinite"/></g>
+    <g><circle cx="367" cy="208" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;1 0;0 0" dur="7s" repeatCount="indefinite"/></g>
+    <g><circle cx="409" cy="125" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;1 1;0 0;-1 -1;0 0" dur="9s" repeatCount="indefinite"/></g>
+    <g><circle cx="469" cy="79" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 -2;0 0;1 1;0 0" dur="11s" repeatCount="indefinite"/></g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" preserveAspectRatio="xMidYMid slice" fill="none">
+  <style>@media (prefers-reduced-motion: reduce) { animateTransform { display: none; } }</style>
+  <g stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <g><path d="m281 234 43-59 46 17 39-74 57 23 35-66"/><animateTransform attributeName="transform" type="translate" values="0 0;1 -2;0 0;-1 1;0 0" dur="14s" repeatCount="indefinite"/></g>
+    <g><path d="m308 280 41-28 38 13 36-49 42 4 34-32"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 1;0 0;1 -1;0 0" dur="10s" repeatCount="indefinite"/></g>
+    <g><path d="m324 175 13-61 43-29 30 33"/><animateTransform attributeName="transform" type="translate" values="0 0;2 0;0 0;-1 -1;0 0" dur="8s" repeatCount="indefinite"/></g>
+    <g><path d="M409 118l33-54 42-12"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 -2;0 0;2 1;0 0" dur="12s" repeatCount="indefinite"/></g>
+    <g><circle cx="281" cy="234" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 1;0 0;1 -1;0 0" dur="7s" repeatCount="indefinite"/></g>
+    <g><circle cx="324" cy="175" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;1 -2;0 0;-1 1;0 0" dur="9s" repeatCount="indefinite"/></g>
+    <g><circle cx="370" cy="192" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;2 0;0 0;-1 -1;0 0" dur="11s" repeatCount="indefinite"/></g>
+    <g><circle cx="409" cy="118" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;-2 1;0 0;1 -1;0 0" dur="8.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="466" cy="141" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;1 2;0 0;-1 -1;0 0" dur="12s" repeatCount="indefinite"/></g>
+    <g><circle cx="501" cy="75" r="4"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 -2;0 0;1 1;0 0" dur="10s" repeatCount="indefinite"/></g>
+    <g><circle cx="349" cy="252" r="3"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;1 0;0 0" dur="7.5s" repeatCount="indefinite"/></g>
+    <g><circle cx="423" cy="216" r="3"/><animateTransform attributeName="transform" type="translate" values="0 0;2 1;0 0;-1 -1;0 0" dur="9.5s" repeatCount="indefinite"/></g>
+  </g>
+</svg>
